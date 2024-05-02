@@ -9,3 +9,4 @@ def selection_sort(arr):
 arr = list(map(int, input("Enter space-separated numbers: ").split()))
 selection_sort(arr)
 print("Sorted array is:", arr)
+
