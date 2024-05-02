@@ -5,7 +5,6 @@ key = int(input("Enter key: "))
 
 ciphertext = [''] * key
 
-
 for column in range(key):
     pointer = column
 
