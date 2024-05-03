@@ -72,8 +72,6 @@ class Puzzle:
             cur = self.open[0]
             print("")
             print("  | ")
-            print("  | ")
-            print(" \\\'/ \n")
             for i in cur.data:
                 for j in i:
                     print(j, end=" ")
